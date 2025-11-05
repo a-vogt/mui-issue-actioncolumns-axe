@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "description": "https://github.com/mui/mui-x/blob/v8.16.0/docs/data/data-grid/column-definition/ActionsWithModalGrid.tsx",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "@mui/x-data-grid": "latest",
+    "@mui/x-data-grid-generator": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@vitejs/plugin-react": "latest",
+    "jsdom": "^27.1.0",
+    "vite": "latest",
+    "vitest": "^4.0.6",
+    "vitest-axe": "^0.1.0"
+  }
+}
