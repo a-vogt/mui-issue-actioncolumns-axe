@@ -9,8 +9,13 @@ export default defineConfig({
   plugins: [react()],
   define: { 'process.env': {} },
   test: {
-    setupFiles: ['vitest-setup.js'],
+    setupFiles: ['vitest-setup.ts'],
     global: true,
     environment: 'jsdom',
+    server: {
+      deps: {
+        inline: ['@mui/x-data-grid'],
+      },
+    },
   },
 });
